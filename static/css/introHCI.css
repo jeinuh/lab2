@@ -1,3 +1,4 @@
+
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
@@ -12,11 +13,44 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     font-family: arial;
+     padding: 20px;
+}
+
+h4 {
+     border-radius: 10px;
+     padding: 10px;
+     background-color: #f0f3fb;
+     display: inline;
+}
+
+.container {
+     margin: auto;
+     width: 960px;
+     padding: 20px;
      border: 1px dotted gray;
+}
+
+.project{
+     border-radius: 10px;
+     margin-top: 20px;
+     width: 920px;
+     background-color: #f8f8f8;
+     padding: 20px;
+}
+
+.project p {
+     font-size: 16px;
+     text-align: center;
+}
+
+.img {
      padding: 20px;
 }
 
 .jumbotron {
+     width: 920px;
+     padding: 20px;
 	position: relative;
 	background: none;
 }
